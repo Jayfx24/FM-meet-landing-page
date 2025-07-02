@@ -52,7 +52,7 @@ body {
 body {
 
     display: flex;
-   
+
     flex-direction: column;
     background-color: var(--white);
     font-family: 'Roboto', sans-serif;
@@ -243,6 +243,13 @@ button {
 
 }
 
+.features-section {
+    padding-inline: var(--spacing-1000);
+    padding-bottom: var(--spacing-900);
+    padding-top: var(--spacing-700);
+
+}
+
 .feature-images {
     padding-block: var(--spacing-800);
     display: flex;
@@ -277,7 +284,7 @@ button {
     letter-spacing: var(--spacing-100);
     color: var(--color-primary);
     line-height: 110%;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     font-size: 1rem;
     text-transform: uppercase;
 }
@@ -381,9 +388,13 @@ p {
         flex-direction: column;
         align-items: center;
     }
-    .feature-images img {
-    width: 150px;
-    
 
+    .feature-images img {
+        width: 150px;
+
+
+    }
+    .features-section {
+    padding-inline: var(--spacing-400);
 }
 }
