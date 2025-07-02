@@ -51,8 +51,8 @@ body {
 
 body {
 
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     background-color: var(--white);
     font-family: 'Roboto', sans-serif;
 
@@ -76,7 +76,9 @@ header img {
     margin-inline: auto;
 }
 
-
+main{
+    flex:1;
+}
 img {
     display: block;
 
