@@ -52,6 +52,7 @@ body {
 body {
 
     display: flex;
+   
     flex-direction: column;
     background-color: var(--white);
     font-family: 'Roboto', sans-serif;
@@ -64,6 +65,8 @@ body {
 .features-section {
     /* border: var(--border); */
 }
+
+
 
 
 header {
@@ -316,7 +319,7 @@ footer .section-indicator {
     background-color: hsla(192, 37%, 48%, 0.8);
     gap: var(--spacing-400);
     /* background-color: black; */
-    /* overflow: hidden; */
+    overflow: hidden;
 
 
 }
